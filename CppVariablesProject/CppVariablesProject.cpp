@@ -59,6 +59,7 @@ int main()
     else
         std::cout << "not roots\n";*/
 
+    /*
     int day;
     std::cout << "input number of week day: ";
     std::cin >> day;
@@ -213,4 +214,16 @@ int main()
     default:
         std::cout << "Incorrect number of month!!!\n";
     }
+    */
+
+    int number{ 14 };
+
+    if (number % 2)
+        std::cout << "odd\n";
+    else
+        std::cout << "even\n";
+
+    (number % 2) ? std::cout << "odd\n" : std::cout << "even\n";
+
+    std::cout << ((number % 2) ? "odd" : "even") << "\n";
 }
